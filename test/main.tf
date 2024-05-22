@@ -10,8 +10,8 @@ terraform {
 
 provider "libvirt" {
   alias = "vmhost01"
-  # uri   = "qemu+ssh://jenkins_automation@vmhost01/system?keyfile=../id_ed25519_jenkins"
-  uri   = "qemu+ssh://michnmi@vmhost01/system?keyfile=/home/michnmi/.ssh/id_ecdsa_docker"
+  uri   = "qemu+ssh://jenkins_automation@vmhost01/system?keyfile=../id_ed25519_jenkins"
+  # uri   = "qemu+ssh://vmhost01/system"
 }
 
 provider "libvirt" {
